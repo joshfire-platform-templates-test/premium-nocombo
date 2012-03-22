@@ -1,0 +1,34 @@
+{
+  "name": "premium-nobundle",
+  "version": "0.0.42",
+  "fullName": "Good template",
+  "joshfire": {
+    "devices": [
+      {
+        "devices": ["phone","tablet"],
+        "startfile": "index.html",
+        "price":{
+          "eur": 200,
+          "usd": 201
+        }
+      },
+      {
+        "devices":"desktop",
+        "startfile": "index.html",
+        "price":{
+          "eur": 202,
+          "usd": 203
+        }
+      },
+      {
+        "devices":"tv",
+        "startfile": "index.html"
+      },
+    ],
+    "premium": true,
+    "price": {
+      "eur": 399,
+      "usd": 533
+    }
+  }
+}
