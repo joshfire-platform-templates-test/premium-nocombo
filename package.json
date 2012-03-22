@@ -16,8 +16,8 @@
         "devices":"desktop",
         "startfile": "index.html",
         "price":{
-          "eur": 202,
-          "usd": 203
+          "eur": 0,
+          "usd": 0
         }
       },
       {
