@@ -20,24 +20,28 @@
     "premium": true,
     "prices": {
       "phone":{
+        "devices":["phone"],
         "onetime":{
           "eur":100,
           "usd":101
         }
       },
       "tablet":{
+        "devices":["tablet"],
         "onetime":{
           "eur":102,
           "usd":103
         }
       },
       "desktop":{
+        "devices":["desktop"],
         "onetime":{
           "eur":104,
           "usd":105
         }
       },
       "tv":{
+        "devices":["tv"],
         "onetime":{
           "eur":106,
           "usd":107
