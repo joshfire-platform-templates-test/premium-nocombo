@@ -1,24 +1,16 @@
 {
-  "name": "premium-nobundle",
+  "name": "premium-nocombo",
   "version": "0.0.42",
   "fullName": "Good template",
   "joshfire": {
     "devices": [
       {
         "devices": ["phone","tablet"],
-        "startfile": "index.html",
-        "price":{
-          "eur": 200,
-          "usd": 201
-        }
+        "startfile": "index.html"
       },
       {
         "devices":"desktop",
-        "startfile": "index.html",
-        "price":{
-          "eur": 0,
-          "usd": 0
-        }
+        "startfile": "index.html"
       },
       {
         "devices":"tv",
@@ -26,9 +18,31 @@
       }
     ],
     "premium": true,
-    "price": {
-      "eur": 450,
-      "usd": 533
+    "prices": {
+      "phone":{
+        "onetime":{
+          "eur":100,
+          "usd":101
+        }
+      },
+      "tablet":{
+        "onetime":{
+          "eur":102,
+          "usd":103
+        }
+      },
+      "desktop":{
+        "onetime":{
+          "eur":104,
+          "usd":105
+        }
+      },
+      "tv":{
+        "onetime":{
+          "eur":106,
+          "usd":107
+        }
+      }
     }
   }
 }
